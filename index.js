@@ -37,11 +37,8 @@ async function listInboxMessages() {
             userId: 'me',
             labelIds: ['INBOX'], // Specify INBOX label to fetch only inbox messages
         });
-        let i=0;
         const messages = res.data.messages || [];
         for (const message of messages) {
-            if(i==2) break;
-            i++;  
             emailQueue.add('processEmail', {messageId:message.id, threadId:message.threadId});           
         }
     } catch (error) {
