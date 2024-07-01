@@ -1,8 +1,8 @@
 # ReachInBox Assignment
 
 ## Server
-The assignment is to build a tool that will parse and check the emails in a Google email ID, and
-respond to the e-mails based on the context using AI. Use BullMQ as the tasks scheduler
+The project is to build a tool that will parse and check the emails in a Google email ID, and
+respond to the e-mails based on the context using AI. Using BullMQ as the tasks scheduler
 This is a server-based application built with Node.js and Express. It uses various packages such as  `openai` for AI functionalities, `googleapis` for Google APIs, and `express` for creating apis and `bullMQ` to process queues.
 
 # technologies used:
