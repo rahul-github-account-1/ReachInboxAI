@@ -1,4 +1,4 @@
-# ReachInBox Assignment
+# ReachInBox 
 
 ## Server
 The project is to build a tool that will parse and check the emails in a Google email ID, and
